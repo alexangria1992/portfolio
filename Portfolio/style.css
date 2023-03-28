@@ -145,10 +145,11 @@ body {
 }
 
 .hero-title h1 {
-  font-size: 70px;
+  font-size: 80px;
   font-weight: lighter;
   text-transform: uppercase;
   color: white;
+  display: inline;
 }
 
 @media (max-width: 900px) {
@@ -160,6 +161,7 @@ body {
 .hero-title .letter {
   display: inline-block;
   opacity: 0;
+  /* line-height: 1em; */
   font-size: 80px;
   color: white;
   font-family: "Times New Roman";
